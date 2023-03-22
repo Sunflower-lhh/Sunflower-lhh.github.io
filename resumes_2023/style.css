@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cfd4d1;
+  color: #ffffff;
+}
+
+.container {
+  width: 80vw;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #004aad;
+}
+
+.title_container {
+  background-color: #ffffff;
+  color: #004aad;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  border-radius: 8px;
+}
+
+.image_profile {
+  width: 150px;
+  height: 150px;
+  align-self: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.title_container .title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title .title_detail {
+  align-self: center;
+}
+
+.title .title_info {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.title_info div {
+  display: flex;
+  gap: 10px;
+}
+
+.title_info svg {
+  width: 20px;
+  height: 20px;
+  color: #004aad;
+}
+
+
+.content_container {
+  margin-top: 20px;
+  border-top: 1px #ffffff solid;
+  padding: 20px;
+  display: flex;
+}
+
+.content_container .left_content {
+  flex: 1 2;
+  border-right: 1px #ffffff solid;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content_item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.content_item .content_item_title h3 {
+  text-transform: uppercase;
+}
+
+.content_item .content_item_title .content_item_title_line {
+  height: 3px;
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.content_item .content_item_detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.skill_item {
+  display: flex;
+  gap: 10px;
+}
+
+.skill_item svg {
+  width: 20px;
+  height: 20px;
+}
+
+.skill_item p {
+  align-self: center;
+}
+
+.content_container .right_content {
+  flex: 2 1;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience_item {
+  margin-bottom: 20px;
+}
+
+.experience_item_title {
+  margin-bottom: 15px;
+}
+
+.experience_item ul {
+  margin-left: 15px;
+}
