@@ -149,3 +149,9 @@ html, body {
 .experience_item ul {
   margin-left: 15px;
 }
+
+.experience_item li {
+  max-width: 100%;
+  white-space: pre-line;
+  list-style-type: none;
+}
