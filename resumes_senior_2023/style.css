@@ -66,7 +66,7 @@ ul li {
   row-gap: 20px;
 }
 
-.section-one > div:first-child > h2 {
+.section-one > div:first-child > div > h2 {
   font-size: 24px;
   line-height: 28px;
   font-weight: 600;
@@ -181,5 +181,32 @@ ul li {
 }
 
 .section-three > div:last-child > div > div:last-child {
+  flex: 5;
+}
+
+.section-four {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--primary-white);
+}
+
+.section-four > div:first-child {
+  flex: 1;
+}
+
+.section-four > div:last-child {
+  flex: 3;
+}
+
+.section-four > div:last-child > div {
+  display: flex;
+}
+
+.section-four > div:last-child > div > h3:first-child {
+  flex: 1;
+}
+
+.section-four > div:last-child > div > div:last-child {
   flex: 5;
 }
